@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+.heading {
+    padding: 24px 24px;
+    background-color: rgb(3, 97, 66);
+    text-align: center;
+    color: white;
+}
+
+.sub-heading {
+    margin-top: 8px;
+    color: white;
+}
+
+.personal-details {
+    background-color: aliceblue;
+    color: rgb(89, 89, 89);
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    column-gap: 12px;
+}
+
+li {
+    list-style: none;
+    font-size: 14px;
+}
+
+.short-desc {
+    padding: 16px 36px;
+    background-color: white;
+    color: rgb(73, 73, 73);
+}
+
+.skills {
+    padding: 8px 36px;
+}
+
+.main-heading {
+    font-size: 16px;
+    color: rgb(56, 56, 56);
+}
+
+.skill-set,
+.tool-set {
+    list-style: none;
+    padding: 8px 0px;
+}
+
+.skill {
+    background-color: rgb(3, 97, 66);
+    color: white;
+    padding: 4px 8px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.title {
+    color: rgb(3, 97, 66);
+    margin-left: 36px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.experiences {
+    padding: 8px 36px;
+}
+
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roles-n-responsibilities li:before {
+  content: "\2726 ";
+  display: inline-block;
+  color: rgb(73, 73, 73);
+}
+
+.roles-n-responsibilities{
+  padding-left: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.about {
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.techs {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+}
+
+@media print {
+    /* h2 { 
+      page-break-before: always;
+    } */
+    h2, h3, h4 {
+      page-break-after: avoid;
+    }
+    pre, blockquote {
+      page-break-inside: avoid;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
+  }
