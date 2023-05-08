@@ -13,6 +13,7 @@ body {
 
 .main-wrapper {
     max-width: 720px;
+    width: 100%;
 }
 
 .heading {
@@ -38,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 8px;
+    flex-wrap: wrap;
     column-gap: 12px;
 }
 
@@ -120,7 +122,6 @@ li {
 }
 
 @media print {
-
     /* h2 { 
       page-break-before: always;
     } */
