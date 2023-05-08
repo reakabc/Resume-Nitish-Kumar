@@ -140,3 +140,10 @@ li {
         page-break-inside: avoid;
     }
 }
+
+@media screen and (max-width: 480px) {
+    p,
+    li {
+        font-size: 12px;
+    }
+}
