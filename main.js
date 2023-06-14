@@ -13,6 +13,7 @@ var languages = [
     "PHP",
     "MySQL",
     "NodeJs",
+    "Spring Boot",
     "Unit Testing",
     "AWS",
     "Firebase",
